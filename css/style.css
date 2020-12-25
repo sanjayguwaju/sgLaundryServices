@@ -109,7 +109,7 @@ body {
   border-radius: 14px;
   float: left;
   margin: 3% 43% 3%;
-  padding:10px;
+  padding: 10px;
   text-align: center;
   font-size: 1.5rem;
   color: blue;
@@ -131,7 +131,7 @@ body {
 }
 .work {
   background-color: transparent;
-  width:22%;
+  width: 22%;
   display: inline-block;
   margin: auto;
 }
@@ -196,14 +196,27 @@ body {
   color: white;
   font-size: 17px;
 }
+@media only screen and (max-width: 600px) {
+  .largeimage {
+    width: 800px;
+  }
 
-/* .backdrop {
-  position: fixed;
-  display: none;
-  top: 0;
-  left: 0;
-  z-index: 100;
-  width: 100vw;
-  height: 100vh;
-  background-color: rgba(0, 0, 0, 0.5);
+  .headings-title p {
+    background-color: lightblue;
+    width: 100%;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 14px;
+    font-size: 1.5rem;
+    color: blue;
+    float: none;
+  }
+  .headings-title h1 {
+    text-align: center;
+    color: blue;
+    font-size: 40px;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    padding-left: 50px;
+  }
 }
