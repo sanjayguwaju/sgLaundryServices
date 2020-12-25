@@ -1,14 +1,9 @@
 /* height of full html page should be 100% */
-html {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-}
-
 body {
   margin: 0;
   padding: 0;
 }
+
 /*  Here is no need of top left and overflow anymore */
 .nav {
   list-style: none;
@@ -16,6 +11,7 @@ body {
   position: fixed;
   width: 100%;
 }
+
 .nav li {
   display: inline;
   float: left;
@@ -98,35 +94,46 @@ body {
     Terminal, "Curier New", Courier;
   color: white;
 }
-
+/* -------------------background image section --------------------- */
 .largeimage {
   width: 100%;
-  height: 100%;
+  background-size: cover;
 }
 
-.head p {
+.headings-title p {
   background-color: lightblue;
-  width: 7%;
+  width: 15%;
+  height: 35px;
+  font-weight: bold;
+  text-transform: uppercase;
   border-radius: 14px;
   float: left;
-  margin: 6% 48% 2%;
-  padding: 5px;
+  margin: 3% 43% 3%;
+  padding:10px;
   text-align: center;
-  font-size: 17px;
+  font-size: 1.5rem;
   color: blue;
 }
-.head h1 {
+.headings-title h1 {
+  /* border: 2px solid black; */
   text-align: center;
   color: blue;
   font-size: 40px;
-  padding-top: 100px;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  padding: 50px;
 }
-
+/* I have nested all of other working divs in this and used it to dispaly as flex */
+.workstation {
+  display: flex;
+  flex-basis: auto;
+  width: 100%;
+}
 .work {
   background-color: transparent;
-  width: 22%;
-  float: left;
-  margin: 20px 86px;
+  width:22%;
+  display: inline-block;
+  margin: auto;
 }
 .work h2 {
   text-align: center;
@@ -188,4 +195,15 @@ body {
   text-align: center;
   color: white;
   font-size: 17px;
+}
+
+/* .backdrop {
+  position: fixed;
+  display: none;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
 }
