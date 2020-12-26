@@ -100,107 +100,6 @@ body {
   background-size: cover;
 }
 
-.headings-title p {
-  background-color: lightblue;
-  width: 15%;
-  height: 35px;
-  font-weight: bold;
-  text-transform: uppercase;
-  border-radius: 14px;
-  float: left;
-  margin: 3% 43% 3%;
-  padding: 10px;
-  text-align: center;
-  font-size: 1.5rem;
-  color: blue;
-}
-.headings-title h1 {
-  /* border: 2px solid black; */
-  text-align: center;
-  color: blue;
-  font-size: 40px;
-  text-transform: uppercase;
-  box-sizing: border-box;
-  padding: 50px;
-}
-/* I have nested all of other working divs in this and used it to dispaly as flex */
-.workstation {
-  display: flex;
-  flex-basis: auto;
-  width: 100%;
-}
-.work {
-  background-color: transparent;
-  width: 22%;
-  display: inline-block;
-  margin: auto;
-}
-.work h2 {
-  text-align: center;
-  font-size: 27px;
-  color: blue;
-}
-.work p {
-  text-align: center;
-  color: blue;
-  font-size: 17px;
-}
-.workicon {
-  padding: 2px 105px;
-}
-.topcontainer {
-  background-color: blue;
-  float: left;
-  width: 573px;
-  height: 585px;
-  margin-top: 20px;
-}
-
-.clothlaundary {
-  float: left;
-  margin: 20px 0px 0px 186px;
-}
-.bottomcontainer {
-  background-color: blue;
-  width: 573px;
-  height: 500px;
-  clear: both;
-  float: left;
-  height: 585px;
-  margin-left: 186px;
-}
-.clothironing {
-  float: left;
-}
-.servicesicon {
-  padding: 150px 250px 0px;
-}
-
-.topcontainer h2 {
-  text-align: center;
-  color: white;
-  font-size: 27px;
-}
-.topcontainer p {
-  text-align: center;
-  color: white;
-  font-size: 17px;
-}
-.bottomcontainer h2 {
-  text-align: center;
-  color: white;
-  font-size: 27px;
-}
-.bottomcontainer p {
-  text-align: center;
-  color: white;
-  font-size: 17px;
-}
-@media only screen and (max-width: 600px) {
-  .largeimage {
-    width: 800px;
-  }
-
   .headings-title p {
     background-color: lightblue;
     width: 100%;
@@ -219,4 +118,103 @@ body {
     box-sizing: border-box;
     padding-left: 50px;
   }
+} */
+/* SERVICES WE OFFER */
+.headings-title h1 {
+  text-align: center;
+  color: blue;
+  font-size: 3rem;
+  text-transform: uppercase;
 }
+/* SERVICES */
+.headings-title p {
+  background-color: lightblue;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 14px;
+  text-align: center;
+  font-size: 1.5rem;
+  color: blue;
+}
+/* I have nested all of other working divs in this and used it to dispaly as flex */
+.workstation {
+  display: flex;
+  flex-basis: auto;
+  width: 100%;
+ 
+}
+.work {
+  background-color: transparent;
+  width: 22%;
+  display: inline-block;
+  margin: auto;
+ 
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.workicon {
+  align-items: center;
+  padding-top: 5%;
+  padding-left:30%;
+  padding-right: 30%;
+  width: 50%;
+}
+.work h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  color: blue;
+  
+}
+.work p {
+  text-align: center;
+  color: blue;
+  font-size: 1rem;
+  
+}
+/* The cloth grid system that and pictures maintained */
+.grid-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 0em;
+}
+/* .grid-container > div {
+  border: 2px solid black;
+} */
+.clothlaundary {
+  width: 70%;
+  height: 100%;
+  margin-left: 30%;
+}
+.cloth {
+  margin-left: 0;
+}
+/* Cloth Ironing Blue Box */
+.topcontainer {
+  background-color: blue;
+  width: 70%;
+}
+.servicesicon {
+  width: 15%;
+  padding: 10% 25% 0 40%;
+}
+.topcontainer h2 {
+  text-align: center;
+  color: white;
+  font-size: 2em;
+  margin-top: 0;
+}
+.topcontainer p {
+  text-align: center;
+  color: white;
+  font-size: 1em;
+  margin-top: -4%;
+}
+.bottom {
+  justify-self: end;
+}
+/* footer {
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+} */
