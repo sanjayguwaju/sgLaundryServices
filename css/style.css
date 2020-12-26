@@ -192,6 +192,7 @@ body {
 .topcontainer {
   background-color: blue;
   width: 70%;
+  padding-top: 13%;
 }
 .servicesicon {
   width: 15%;
@@ -212,9 +213,18 @@ body {
 .bottom {
   justify-self: end;
 }
-/* footer {
+footer {
   text-align: center;
-  padding: 3px;
-  background-color: DarkSalmon;
+  margin-top: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  background-color: rgb(163, 82, 55);
   color: white;
-} */
+}
+footer p {
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 1em;
+  margin-top: 0em;
+  padding-bottom: 0.5em;
+}
