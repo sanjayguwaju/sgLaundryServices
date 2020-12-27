@@ -3,8 +3,9 @@ body {
   margin: 0;
   padding: 0;
 }
-
-/*  Here is no need of top left and overflow anymore */
+/* ----------------------------------------------------------------------
+---------------------------Navigation Bar--------------------------------
+------------------------------------------------------------------------ */
 .nav {
   list-style: none;
   background-color: grey;
@@ -38,7 +39,9 @@ body {
   border-bottom: 6px solid blue; /*this is for activating underline in navigation bar*/
 }
 
-/* Toggle button for the navigation bar */
+/* -------------------------------------------------------------------------------------
+---------------------Toggle button for the navigation bar ------------------------------
+----------------------------------------------------------------------------------------*/
 
 .toggle-button {
   width: 3rem;
@@ -62,9 +65,9 @@ body {
   display: block;
   margin: 0.6rem 0;
 }
-/* Toggle button for the navigation bar */
-
-/* Mobile-Navigation Menu */
+/* -------------------------------------------------------------------------------------
+--------------------- ------------Mobile-Navigation Menu  ------------------------------
+----------------------------------------------------------------------------------------*/
 .mobile-nav {
   display: none;
   position: fixed;
@@ -94,7 +97,9 @@ body {
     Terminal, "Curier New", Courier;
   color: white;
 }
-/* -------------------background image section --------------------- */
+/* ======================================================================================
+--------------------- ------------Background Image Section  ------------------------------
+==========================================================================================*/
 .largeimage {
   width: 100%;
   background-size: cover;
@@ -119,7 +124,9 @@ body {
     padding-left: 50px;
   }
 } */
-/* SERVICES WE OFFER */
+/* ======================================================================================
+--------------------- ------------Services We Offer------  ------------------------------
+==========================================================================================*/
 .headings-title h1 {
   text-align: center;
   color: blue;
@@ -136,6 +143,7 @@ body {
   font-size: 1.5rem;
   color: blue;
 }
+
 /* I have nested all of other working divs in this and used it to dispaly as flex */
 .workstation {
   display: flex;
@@ -177,6 +185,9 @@ body {
   grid-template-columns: 50% 50%;
   grid-gap: 0em;
 }
+/* ======================================================================================
+----------------------To see all the grid border uncomment below css code  ----
+==========================================================================================*/
 /* .grid-container > div {
   border: 2px solid black;
 } */
